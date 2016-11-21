@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 def main():
-    CLIENT_ID = "1QCKNMZX3B21SMZGOF5ZQALB33BQP20TKARFQLDBTOKDESGS"
-    CLIENT_SECRET = "2PQCTZUW2PDEIL50JOF0BNHKJXJC2MLSB0FI5LSABPKXQKES"
+    CLIENT_ID = "..."
+    CLIENT_SECRET = "..."
     client = foursquare.Foursquare(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
     #
     # res = client.venues("4c31a1e26f1fef3b440dec3d")
